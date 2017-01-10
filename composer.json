@@ -1,0 +1,9 @@
+{
+    "name": "drupal/path_theme",
+    "type": "drupal-module",
+    "description": "Path Theme",
+    "homepage": "https://github.com/TopFloorTech/drupal-path_theme",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "require": {}
+}

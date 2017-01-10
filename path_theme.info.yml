@@ -1,0 +1,6 @@
+name: Path Theme
+type: module
+description: 'Allows you to specify a different theme to use per path.'
+version: 8.x-1.x
+core: 8.x
+package: Theme
