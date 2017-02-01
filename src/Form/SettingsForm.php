@@ -53,7 +53,7 @@ class SettingsForm extends ConfigFormBase {
         }
 
         if (!empty($value)) {
-          $value .= '\r\n';
+          $value .= "\r\n";
         }
 
         $value .= $key;
