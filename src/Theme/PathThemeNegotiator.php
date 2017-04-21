@@ -61,6 +61,9 @@ class PathThemeNegotiator implements ThemeNegotiatorInterface {
     }
 
     $currentPath = \Drupal::request()->getRequestUri();
+    if (strpos($currentPath, '?') !== FALSE) {
+      list($currentPath) = explode('?', $currentPath);
+    }
 
     if (!empty($paths)) {
       foreach ($paths as $path => $theme) {
